@@ -1,0 +1,16 @@
+/*------------------------------ <BG-GRADIENTS> ------------------------------*/
+.bluebg {
+  position: relative;
+  overflow: hidden;
+  &:after {
+    content: '';
+    @include rotate(18deg);
+    position: absolute;
+    width: 35%;
+    height: 130%;
+    left: -50px;
+    top: -95px;
+    background-image: linear-gradient(198deg, #007397 0%, rgba(0, 115, 151, 0) 100%);
+  }
+}
+/*------------------------------ </BG-GRADIENTS> ------------------------------*/
