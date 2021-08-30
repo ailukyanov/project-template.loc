@@ -1,0 +1,54 @@
+/*------------------------------ <FORMS> ------------------------------*/
+
+/*------------------------------ <FORM> ------------------------------*/
+.form {}
+
+.form-row {
+  @include flexbox();
+  margin: 0 -15px;
+}
+
+.form__column {
+  padding: 0 15px;
+}
+
+.form-input {}
+
+.form-button {}
+/*------------------------------ </FORM> ------------------------------*/
+
+/*------------------------------ <INPUT> ------------------------------*/
+input[type=text], input[type=email], input[type=tel], textarea {
+  appearance: none;
+}
+
+.input {
+  position: relative;
+  height: 50px;
+  border-radius: 0 !important;
+  width: 100%;
+  display: block;
+  font-size: 15px;
+  padding: 0 20px;
+  border-top: 1px solid #000;
+  background-color: #f8f7f7;
+
+  /*------------------------------ <For js> ------------------------------*/
+  &.focus {
+    border-top: 1px solid blue;
+  }
+
+  &.err {
+    border-top: 1px solid red;
+  }
+  /*------------------------------ </For js> ------------------------------*/
+}
+
+textarea.input {
+  resize: none;
+  height: 117px;
+  padding: 10px 20px;
+}
+/*------------------------------ </INPUT> ------------------------------*/
+
+/*------------------------------ </FORMS> ------------------------------*/

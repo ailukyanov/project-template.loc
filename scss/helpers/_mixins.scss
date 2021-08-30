@@ -37,6 +37,10 @@
   font-size: 0;
 }
 
+@mixin flexboxinline() {
+  display: inline-flex;
+}
+
 @mixin flexorder($val) {
   order: $val;
 }

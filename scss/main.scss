@@ -4,9 +4,9 @@
 /*------------------------------ </HELPERS> ------------------------------*/
 
 /*------------------------------ <COMMON> ------------------------------*/
-@import "common/base";
 @import "common/normalize";
 @import "common/fonts";
+@import "common/base";
 /*------------------------------ </COMMON> ------------------------------*/
 
 /*------------------------------ <COMPONENTS> ------------------------------
@@ -15,6 +15,9 @@
 @import "components/menu-burger";
 @import "components/bg-gradients";
 @import "components/buttons";
+@import "components/header-blocks";
+@import "components/forms";
+@import "components/ibg";
 ------------------------------ </COMPONENTS> ------------------------------*/
 
 /*------------------------------ <MODULES> ------------------------------*/
